@@ -33,7 +33,9 @@ with open("./userData.json",'r') as load_f:
 user['wlan_user_ip'] = ip
 
 print(user)
-url = 'http://172.16.253.3:801/eportal/'
+url = 'http://'+ user['requestIPAndPort']+'/eportal/'
+user.pop("requestIPAndPort")
+
 
 response = requests.get(url,params=user)
 print(response.text)

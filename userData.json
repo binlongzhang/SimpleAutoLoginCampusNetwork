@@ -3,13 +3,13 @@
   "a":"login",
   "callback":"dr1003",
   "login_method":1,
-  "user_account":"Q21201135@telecom",
-  "user_password":"q1094859023",
+  "user_account":"用户账户",
+  "user_password":"用户密码",
   "wlan_user_ip":"",
   "wlan_user_ipv6":"",
   "wlan_user_mac": "000000000000",
-  "wlan_ac_ip": "172.16.253.1",
   "wlan_ac_name": "",
   "jsVersion": "3.3.2",
-  "v":4861
+  "v":4861,
+  "requestIPAndPort": "172.16.253.3:801"
 }
